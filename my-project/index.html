@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-left: 4px solid #007acc;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, monospace;
+            color: #007acc;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Git Tutorial</h1>
+    <p>This tutorial will guide you through the basic commands to use Git for version control.</p>
+
+    <h2>1. Install Git</h2>
+    <p>Download and install Git from the <a href="https://git-scm.com/" target="_blank">official Git website</a>.</p>
+
+    <h2>2. Configure Git</h2>
+    <p>After installation, configure your Git username and email:</p>
+    <pre><code>git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"</code></pre>
+
+    <h2>3. Initialize a Repository</h2>
+    <p>Navigate to your project directory and run:</p>
+    <pre><code>git init</code></pre>
+    <p>This creates an empty Git repository.</p>
+
+    <h2>4. Check the Status</h2>
+    <p>To check the current status of your repository, use:</p>
+    <pre><code>git status</code></pre>
+
+    <h2>5. Add Files to Staging</h2>
+    <p>To add files to the staging area, use:</p>
+    <pre><code>git add filename</code></pre>
+    <p>Or, to add all files:</p>
+    <pre><code>git add .</code></pre>
+
+    <h2>6. Commit Changes</h2>
+    <p>To save your changes, commit them with a message:</p>
+    <pre><code>git commit -m "Your commit message"</code></pre>
+
+    <h2>7. Connect to a Remote Repository</h2>
+    <p>To connect to a remote repository (e.g., GitHub):</p>
+    <pre><code>git remote add origin https://github.com/username/repository.git</code></pre>
+
+    <h2>8. Push Changes</h2>
+    <p>To push your changes to the remote repository:</p>
+    <pre><code>git push -u origin main</code></pre>
+
+    <h2>9. Pull Changes</h2>
+    <p>To pull updates from the remote repository:</p>
+    <pre><code>git pull</code></pre>
+
+    <h2>10. Clone a Repository</h2>
+    <p>To clone an existing repository:</p>
+    <pre><code>git clone https://github.com/username/repository.git</code></pre>
+
+    <h2>More Resources</h2>
+    <p>Explore the <a href="https://git-scm.com/doc" target="_blank">official Git documentation</a> for more details.</p>
+</body>
+</html>
